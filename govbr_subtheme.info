@@ -1,0 +1,78 @@
+name = GovBr PROGEPE UFRPE
+description = Tema da PROGEPE UFRPE. Herda do tema GovBr.
+core = 7.x
+base theme = govbr_theme
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+regions[navigation]           = 'Navigation'
+regions[header]               = 'Top Bar'
+regions[header_right]         = 'Header right'
+regions[highlighted]          = 'Highlighted'
+regions[help]                 = 'Help'
+regions[content]              = 'Content'
+regions[sidebar_first]        = 'Primary'
+regions[footer]               = 'Footer'
+regions[footer_firstcolumn]   = 'Footer first column'
+regions[footer_secondcolumn]  = 'Footer second column'
+regions[footer_thirdcolumn]   = 'Footer third column'
+regions[footer_fourthcolumn]  = 'Footer fourth column'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[css][] = css/my_style.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Theme Settings
+;;;;;;;;;;;;;;;;;;;;;
+; Site information
+; --------------
+settings[govbr_subtheme_info_designation] = 'Denominação do órgão'
+settings[govbr_subtheme_info_name] = 'Nome Principal'
+settings[govbr_subtheme_info_subordination] = 'Subordinação'
+
+; Color scheme
+; --------------
+settings[govbr_subtheme_color_scheme] = 'blue'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Features
+;;;;;;;;;;;;;;;;;;;;;
+features[] = name
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = logo
+features[] = secondary_menu
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Advanced
+;;;;;;;;;;;;;;;;;;;;;
+;;; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+settings[bootstrap_cdn_provider] = 'jsdelivr'
+settings[bootstrap_cdn_custom_css] = 'https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.css'
+settings[bootstrap_cdn_custom_css_min] = 'https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css'
+settings[bootstrap_cdn_custom_js] = 'https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.js'
+settings[bootstrap_cdn_custom_js_min] = 'https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js'
+settings[bootstrap_cdn_jsdelivr_version] = '3.4.1'
+settings[bootstrap_cdn_jsdelivr_theme] = 'bootstrap'
+
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Bootstrap Scripts (Disabled in this subtheme)
+; ;;;;;;;;;;;;;;;;;;;;;
+scripts[] = 'bootstrap/js/affix.js'
+scripts[] = 'bootstrap/js/alert.js'
+scripts[] = 'bootstrap/js/button.js'
+scripts[] = 'bootstrap/js/carousel.js'
+scripts[] = 'bootstrap/js/collapse.js'
+scripts[] = 'bootstrap/js/dropdown.js'
+scripts[] = 'bootstrap/js/modal.js'
+scripts[] = 'bootstrap/js/tooltip.js'
+scripts[] = 'bootstrap/js/popover.js'
+scripts[] = 'bootstrap/js/scrollspy.js'
+scripts[] = 'bootstrap/js/tab.js'
+scripts[] = 'bootstrap/js/transition.js'
+
