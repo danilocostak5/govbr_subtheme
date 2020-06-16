@@ -1,1 +1,119 @@
+/****
+    Adjust Search Region
+*/
+div.input-group label.label-float{
+    display: none;
+}
 
+#header .search-form .form-control {
+    border-right: 0;
+    box-shadow: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-group .form-control {
+    height: 39px;
+}
+
+/****
+    Modify Navbar and Footer Color
+*/
+div#navbar, footer#footer > div.footer{
+    background-color: #165a56;
+}
+
+/* 
+    Modify sidebar-first-meny button collor
+*/
+#sidebar-first-menu button.navbar-toggle{
+    color: #fff;
+}
+
+/****
+    Modify first sidebar title colors
+*/
+
+.region-sidebar-first .block-title{
+    color: #165a56;
+    border-top-color: #165a56;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+#block-menu-menu-not-cias .block-title{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    color: #165a56;
+    border-top: 4px solid #165a56;
+    background-color: #EDEFF1;
+
+    padding: 8px 8px 24px 10px;
+
+    margin: 0;
+}
+
+
+div.site-info a.logo img{
+    width: auto;
+    max-height: 79px;
+    min-height: 15%;
+}
+
+
+div.site-info a.navbar-btn {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+aside#sidebar-first-menu.col-sm-3{
+  background-color: transparent;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/****
+    Logo Resize and Responsive Settings
+*/
+
+/* Use a media query to add a breakpoint at 768: */
+@media screen and (max-width: 768px) {
+  div.site-info a, div.search{
+      float: left;
+  }
+  
+  aside#sidebar-first-menu.col-sm-3{
+      /*background-color: #165a56;*/
+      background-image: -webkit-linear-gradient(top, #155954, #165a59);
+      background-image: linear-gradient(to bottom, #155954, #165a59);
+      
+  }
+  
+  div.site-info a.navbar-btn {
+    float: top !important;
+  }
+  
+}
+
+/****
+    Page title css
+*/
+a#main-content {
+    display: None;  
+}
+
+h1.page-header {
+    background-color: #f2f2f2;
+    border-top: 4px solid #165a56;
+    border-radius: 4px;
+    color: #165a56;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 8px 8px 18px 10px !important;
+    text-transform: uppercase;
+    margin-top: 0 !important;
+}

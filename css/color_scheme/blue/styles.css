@@ -1,7 +1,7 @@
 #header {
-  background-color: #1B2D4F;
-  /*background-image: -webkit-linear-gradient(top, #2160bd, #3a72bc);
-  background-image: linear-gradient(to bottom, #2160bd, #3a72bc);*/
+  /*background-color: #1B2D4F;*/
+  background-image: -webkit-linear-gradient(top, #1a2d4f, #221a4f);
+  background-image: linear-gradient(to bottom, #1a2d4f, #221a4f);
 }
 #header a {
   color: #ffffff;
