@@ -34,7 +34,10 @@ div#navbar, footer#footer > div.footer{
     Modify first sidebar title colors
 */
 
-.region-sidebar-first .block-title{
+.region-sidebar-first .block-menu, 
+.region-sidebar-first .block-masquerade, 
+.region-sidebar-first .block-menu .block-title,
+.region-sidebar-first .block-masquerade .block-title {
     color: #165a56;
     border-top-color: #165a56;
     border-top-left-radius: 4px;
@@ -94,6 +97,10 @@ aside#sidebar-first-menu.col-sm-3{
   
   div.site-info a.navbar-btn {
     float: top !important;
+  }
+
+  .region-sidebar-first .block-title {
+    font-size: 13px;
   }
   
 }

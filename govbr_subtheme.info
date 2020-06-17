@@ -1,4 +1,5 @@
-name = GovBr PROGEPE UFRPE
+;name = GovBr PROGEPE UFRPE
+name=Teste
 description = Tema da PROGEPE UFRPE. Herda do tema GovBr.
 core = 7.x
 base theme = govbr_theme
